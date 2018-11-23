@@ -184,7 +184,7 @@ msgstr "Налаштування"
 
 #: ../data/geany.glade.h:32
 msgid "Load files from the last session"
-msgstr "Завантажити файли з останнього відвідування"
+msgstr "Завантажити файли з останньої сесії"
 
 #: ../data/geany.glade.h:33
 msgid "Opens at startup the files from the last session"
@@ -393,9 +393,8 @@ msgid "Use the current file's directory for Find in Files"
 msgstr "Помилкова тека для пошуку файлів."
 
 #: ../data/geany.glade.h:71
-#, fuzzy
 msgid "<b>Search</b>"
-msgstr "<b>Бічна панель</b>"
+msgstr "<b>Пошук</b>"
 
 #: ../data/geany.glade.h:72
 msgid "Use project-based session files"
@@ -659,7 +658,7 @@ msgstr "Маленькі кнопки"
 #: ../data/geany.glade.h:127
 #, fuzzy
 msgid "_Very small icons"
-msgstr "Маленькі кнопки"
+msgstr "Дуже маленькі кнопки"
 
 #: ../data/geany.glade.h:128
 #, fuzzy
@@ -793,9 +792,8 @@ msgid ""
 msgstr ""
 
 #: ../data/geany.glade.h:151
-#, fuzzy
 msgid "Width:"
-msgstr "Пише:"
+msgstr "Ширина:"
 
 #: ../data/geany.glade.h:152
 #, fuzzy
@@ -838,9 +836,8 @@ msgid "Use spaces when inserting indentation"
 msgstr ""
 
 #: ../data/geany.glade.h:160
-#, fuzzy
 msgid "_Tabs"
-msgstr "відступи"
+msgstr "Відступи"
 
 #: ../data/geany.glade.h:161
 msgid "Use one tab per indent"
@@ -1109,9 +1106,8 @@ msgid "Column:"
 msgstr "Компанія:"
 
 #: ../data/geany.glade.h:217
-#, fuzzy
 msgid "Color:"
-msgstr "Колір"
+msgstr "Колір:"
 
 #: ../data/geany.glade.h:218
 msgid "Sets the color of the long line marker"
@@ -1161,9 +1157,8 @@ msgstr ""
 "пропорціональними шрифтами)"
 
 #: ../data/geany.glade.h:225
-#, fuzzy
 msgid "Enabled"
-msgstr "Дозволити згортку"
+msgstr "Активовано"
 
 #: ../data/geany.glade.h:226
 msgid "<b>Long line marker</b>"
@@ -1387,7 +1382,7 @@ msgstr "адреса електронної пошти розробника"
 
 #: ../data/geany.glade.h:274
 msgid "Initials of the developer name"
-msgstr "Ініціали ім'я розробника"
+msgstr "Ініціали імені розробника"
 
 #: ../data/geany.glade.h:275
 msgid "Initial version:"
@@ -1510,7 +1505,7 @@ msgstr "Додати номера рядків до друкуємої стор�
 
 #: ../data/geany.glade.h:300 ../src/printing.c:244
 msgid "Print page numbers"
-msgstr "Друкувати номера рядків"
+msgstr "Друкувати номера сторінок"
 
 #: ../data/geany.glade.h:301 ../src/printing.c:246
 #, fuzzy
@@ -1562,9 +1557,8 @@ msgid "Use native GTK printing"
 msgstr "Використовувати типове друкування GTK"
 
 #: ../data/geany.glade.h:309
-#, fuzzy
 msgid "<b>Printing</b>"
-msgstr "<b>Кодування:</b>"
+msgstr "<b>Друкування</b>"
 
 #: ../data/geany.glade.h:310 ../src/prefs.c:1619
 msgid "Printing"
@@ -1714,9 +1708,8 @@ msgstr ""
 "відображення статусу закінчення виконуємої програми."
 
 #: ../data/geany.glade.h:338
-#, fuzzy
 msgid "<b>Terminal</b>"
-msgstr "<b>Дозволи:</b>"
+msgstr "<b>Термінал</b>"
 
 #: ../data/geany.glade.h:339 ../src/prefs.c:1623 ../src/vte.c:391
 msgid "Terminal"
@@ -1836,9 +1829,8 @@ msgid "M_ove Line(s) Down"
 msgstr "Закоментувати рядок(-ки)"
 
 #: ../data/geany.glade.h:365 ../src/keybindings.c:501
-#, fuzzy
 msgid "_Send Selection to Terminal"
-msgstr "_Надіслати виділене до"
+msgstr "_Надіслати виділене до Терміналу"
 
 #: ../data/geany.glade.h:366 ../src/keybindings.c:503
 msgid "_Reflow Lines/Block"
@@ -1889,7 +1881,7 @@ msgstr "Налаштування"
 #: ../data/geany.glade.h:377 ../src/keybindings.c:527
 #, fuzzy
 msgid "P_lugin Preferences"
-msgstr "Налаштування"
+msgstr "Налаштування модулів"
 
 #: ../data/geany.glade.h:378
 #, fuzzy
@@ -2118,9 +2110,8 @@ msgid "Convert and Set to CR (Classic _Mac)"
 msgstr "Конвертувати та встановити у CR (_Mac)"
 
 #: ../data/geany.glade.h:429 ../src/keybindings.c:667
-#, fuzzy
 msgid "_Clone"
-msgstr "_Зачинити"
+msgstr "_Клонувати"
 
 #: ../data/geany.glade.h:430
 msgid "_Strip Trailing Spaces"
@@ -2322,7 +2313,7 @@ msgstr ""
 
 #: ../data/geany.glade.h:475
 msgid "Size:"
-msgstr ""
+msgstr "Розмір:"
 
 #: ../data/geany.glade.h:476
 #, fuzzy
@@ -2458,7 +2449,7 @@ msgstr "Допомагали"
 
 #: ../src/about.c:427
 msgid "License"
-msgstr "Ліцезнія"
+msgstr "Ліцензія"
 
 #: ../src/about.c:436
 msgid ""
@@ -2537,9 +2528,8 @@ msgid "_Next Error"
 msgstr "_Наступна помилка"
 
 #: ../src/build.c:1302
-#, fuzzy
 msgid "_Previous Error"
-msgstr "_Попередній"
+msgstr "_Попередня помилка"
 
 #. arguments
 #: ../src/build.c:1312 ../src/build.c:2720
@@ -5343,7 +5333,7 @@ msgstr "Збільшити розмір шрифту"
 
 #: ../src/toolbar.c:76
 msgid "Zoom out the text"
-msgstr "Зменшети розмір шрифту"
+msgstr "Зменшити розмір шрифту"
 
 #: ../src/toolbar.c:77
 msgid "Decrease indentation"
@@ -5371,9 +5361,8 @@ msgid "Quit Geany"
 msgstr "Зачинити Geany"
 
 #: ../src/toolbar.c:83
-#, fuzzy
 msgid "Print document"
-msgstr "документ XML"
+msgstr "Роздрукувати документ"
 
 #: ../src/toolbar.c:84
 #, fuzzy
@@ -6442,9 +6431,8 @@ msgstr "Низовина"
 #~ msgid "Clear the filter"
 #~ msgstr "Закрити поточний файл"
 
-#, fuzzy
 #~ msgid "Clear"
-#~ msgstr "Компілятор"
+#~ msgstr "Очистити"
 
 #, fuzzy
 #~ msgid "_Set Build Menu Commands"
@@ -6522,9 +6510,8 @@ msgstr "Низовина"
 #~ msgid "(built on %s with GTK %d.%d.%d, GLib %d.%d.%d)"
 #~ msgstr "(будувати на %s з GTK %d.%d.%d, GLib %d.%d.%d)"
 
-#, fuzzy
 #~ msgid "Set"
-#~ msgstr "Секц1"
+#~ msgstr "Використати"
 
 #~ msgid "Fixed s_trings"
 #~ msgstr "_Фіксований рядок"
@@ -6639,9 +6626,8 @@ msgstr "Низовина"
 #~ msgid "Duplicate line or selection"
 #~ msgstr "Подвоїти рядок або виділене"
 
-#, fuzzy
 #~ msgid "Send Selection to Terminal"
-#~ msgstr "_Надіслати виділене до"
+#~ msgstr "_Надіслати виділене до Терміналу"
 
 #~ msgid "Run (alternative command)"
 #~ msgstr "Виконати (альтернативна команда)"
